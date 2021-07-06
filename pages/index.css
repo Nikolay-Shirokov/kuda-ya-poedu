@@ -25,4 +25,4 @@
 @import url(../blocks/people/__quote-caption/people__quote-caption.css);
 @import url(../blocks/people/__quote-text/people__quote-text.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/_copyright/footer_copyright.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
