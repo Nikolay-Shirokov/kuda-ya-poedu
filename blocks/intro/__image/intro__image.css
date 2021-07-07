@@ -1,3 +1,9 @@
 ﻿.intro__image {
-
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1/-1;
+  width: 60%;
+  height: 85%;
+  align-self: center;
+  justify-self: center;
 }
