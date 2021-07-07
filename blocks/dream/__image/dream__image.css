@@ -1,3 +1,7 @@
 ﻿.dream__image {
-
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
+

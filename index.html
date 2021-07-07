@@ -11,7 +11,7 @@
 </head>
 
 <body class="root">
-  <header class="header">
+  <header class="header root__container">
     <nav>
       <ul class="header__links root__list-reset">
         <li><a href="#" class="header__link link">Мечты</a></li>
@@ -22,7 +22,7 @@
     <a href="#" class="header__user-link link" target="_blank">Пожаловаться</a>
   </header>
   <main>
-    <section class="intro">
+    <section class="intro root__container">
       <h1 class="intro__title title">Куда я поеду</h1>
       <p class="intro__subtitle subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
       <img src="./images/intro/intro-image.webp" alt="Вид над облаками из иллюминатора, везущего на отдых, самолета"
@@ -30,8 +30,10 @@
     </section>
     <ul class="dreams root__list-reset">
       <li class="dream">
-        <img src="./images/dreams/dreams-forest.webp" alt="Спадающие потоки водопада, затерянного в лесу"
-          class="dream__image">
+        <a class="dream__link" href="#" target="_blank">
+          <img class="dream__image" src="./images/dreams/dreams-forest.webp"
+            alt="Спадающие потоки водопада, затерянного в лесу">
+        </a>
         <h2 class="dream__title">Поеду в лес</h2>
         <div class="dream__text">
           <p class="dream__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются
@@ -42,8 +44,10 @@
         </div>
       </li>
       <li class="dream">
-        <img src="./images/dreams/dreams-mountains.webp" alt="Восход над заснеженной вершиной горной гряды"
-          class="dream__image">
+        <a class="dream__link" href="#" target="_blank">
+          <img src="./images/dreams/dreams-mountains.webp" alt="Восход над заснеженной вершиной горной гряды"
+            class="dream__image">
+        </a>
         <h2 class="dream__title">Поеду в горы</h2>
         <div class="dream__text">
           <p class="dream__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % —
@@ -52,7 +56,9 @@
         </div>
       </li>
       <li class="dream">
-        <img src="./images/dreams/dreams-black-sea.webp" alt="Набегающая волна бескрайнего моря" class="dream__image">
+        <a class="dream__link" href="#" target="_blank">
+          <img src="./images/dreams/dreams-black-sea.webp" alt="Набегающая волна бескрайнего моря" class="dream__image">
+        </a>
         <h2 class="dream__title">Поеду на Чёрное море</h2>
         <div class="dream__text">
           <p class="dream__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и

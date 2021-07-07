@@ -1,3 +1,10 @@
 ﻿.dream {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
+}
 
+.dream:nth-of-type(2n) .dream__link {
+  grid-column: 2;
 }

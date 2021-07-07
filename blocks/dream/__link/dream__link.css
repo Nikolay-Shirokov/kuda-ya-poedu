@@ -1,0 +1,14 @@
+.dream__link {
+  grid-row: 1/-1;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.dream__link:hover .dream__image {
+  transition: transform .8s ease-in-out;
+}
+
+.dream__link:hover .dream__image {
+  transform: scale(1.3);
+}
