@@ -6,4 +6,9 @@
   height: 85%;
   align-self: center;
   justify-self: center;
+  transition: object-position 1s ease;
+}
+
+.intro__image:hover {
+  object-position: top;
 }
