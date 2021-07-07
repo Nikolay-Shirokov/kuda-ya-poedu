@@ -8,3 +8,11 @@
 .dream:nth-of-type(2n) .dream__link {
   grid-column: 2;
 }
+
+.dream:nth-of-type(2) {
+  animation-delay: 2s;
+}
+
+.dream:nth-of-type(3) {
+  animation-delay: 3s;
+}
