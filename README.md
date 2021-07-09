@@ -21,7 +21,7 @@
 
 **<a name="Макет"></a>Макет**
 
-* [Ссылка на макет](./templates/kuda-ya-poedu.png)
+* [Ссылка на макет](./templates/kuda-ya-poedu.webp)
 
 **<a name="GHPages"></a>GH Pages**
 
