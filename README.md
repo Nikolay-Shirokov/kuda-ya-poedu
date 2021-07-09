@@ -25,6 +25,6 @@
 
 **<a name="GHPages"></a>GH Pages**
 
-* [Ссылка на публикацию проекта](https://nikolay-shirokov.github.io/kupa-ya-poedu/)
+* [Ссылка на публикацию проекта](https://nikolay-shirokov.github.io/kuda-ya-poedu/)
 
 Спасибо!
