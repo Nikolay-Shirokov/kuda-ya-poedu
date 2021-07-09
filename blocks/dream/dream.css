@@ -21,7 +21,8 @@
 @media screen and (max-width: 1023px) {
   .dream {
     grid-template-columns: 1fr;
-    grid-template-rows: min-content 1fr 1fr;
+    grid-template-rows: min-content min-content min-content;
+    padding-bottom: 50px;
   }
   .dream:nth-of-type(2n) .dream__link {
     grid-column: 1;

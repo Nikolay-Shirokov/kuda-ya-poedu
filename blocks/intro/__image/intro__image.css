@@ -5,7 +5,7 @@
   width: 62%;
   height: 79%;
   align-self: center;
-/*   justify-self: center; */
+  /*   justify-self: center; */
   transition: object-position 1s ease;
   margin-top: 40px;
   margin-left: 145px;
@@ -13,4 +13,13 @@
 
 .intro__image:hover {
   object-position: top;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__image {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    margin: 0;
+  }
 }
