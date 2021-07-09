@@ -7,7 +7,7 @@
 /*   box-sizing: border-box; */
 }
 
-@media screen and (max-width: 1295px) {
+@media screen and (max-width: 1400px) {
   .root__container {
     padding-left: 10px;
     padding-right: 10px;
