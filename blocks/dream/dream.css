@@ -1,8 +1,9 @@
 ﻿.dream {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: min-content 3fr;
   grid-auto-flow: column;
+  row-gap: 60px;
 }
 
 .dream:nth-of-type(2n) .dream__link {
@@ -15,4 +16,14 @@
 
 .dream:nth-of-type(3) {
   animation-delay: 3s;
+}
+
+@media screen and (max-width: 1023px) {
+  .dream {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr 1fr;
+  }
+  .dream:nth-of-type(2n) .dream__link {
+    grid-column: 1;
+  }
 }

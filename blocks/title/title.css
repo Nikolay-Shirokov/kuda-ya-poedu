@@ -1,7 +1,8 @@
 .title {
   color: #fed5b6;
-  font-size: 17px;
+  font-size: 14px;
   font-family: 'Basis Grotesque Pro Mono', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0;
 }

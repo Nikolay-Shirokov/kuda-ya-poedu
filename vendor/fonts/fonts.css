@@ -6,22 +6,39 @@
   font-weight: 900;
   font-style: normal;
 }
-
+/*
 @font-face {
   font-family: 'Basis Grotesque Pro';
   src: local('Basis Grotesque Arabic Pro Bold'), local('Basis-Grotesque-Arabic-Pro-Bold'),
       url('BasisGrotesqueArabicPro-Bold.woff2') format('woff2'),
-      url('BasisGrotesqueArabicPro-Bold.woff') format('woff'),
-      url('BasisGrotesqueArabicPro-Bold.ttf') format('truetype');
+      url('BasisGrotesqueArabicPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: local('Basis Grotesque Arabic Pro Bold'), local('Basis-Grotesque-Arabic-Pro-Bold'),
+      url('BasisGrotesquePro-Bold.woff2') format('woff2'),
+      url('BasisGrotesquePro-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Basis Grotesque Pro';
   src: local('Basis Grotesque Arabic Pro Regular'), local('Basis-Grotesque-Arabic-Pro-Regular'),
       url('BasisGrotesqueArabicPro-Regular.woff2') format('woff2'),
       url('BasisGrotesqueArabicPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: local('Basis Grotesque Arabic Pro Regular'), local('Basis-Grotesque-Arabic-Pro-Regular'),
+      url('BasisGrotesquePro-Regular.woff2') format('woff2'),
+      url('BasisGrotesquePro-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }

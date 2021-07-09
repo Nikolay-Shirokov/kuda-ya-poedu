@@ -1,4 +1,8 @@
 ﻿.dream__title {
-  padding-left: 40px;
+  padding-left: 80px;
+  padding-top: 68px;
+/*   align-self: center; */
+  font-size: 39px;
   width: 70%;
+  margin: 0;
 }

@@ -2,11 +2,13 @@
   object-fit: cover;
   object-position: center;
   grid-row: 1/-1;
-  width: 60%;
-  height: 85%;
+  width: 62%;
+  height: 79%;
   align-self: center;
-  justify-self: center;
+/*   justify-self: center; */
   transition: object-position 1s ease;
+  margin-top: 40px;
+  margin-left: 145px;
 }
 
 .intro__image:hover {
