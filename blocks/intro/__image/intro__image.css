@@ -22,5 +22,7 @@
     width: 100%;
     margin: 0;
     border-radius: 20%;
+    border: ridge 15px rgb(180, 177, 177);
+    box-sizing: border-box;
   }
 }
