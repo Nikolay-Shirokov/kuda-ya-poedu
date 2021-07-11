@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-.dream__link:hover .dream__image {
+.dream__link .dream__image {
   transition: transform .8s ease-in-out;
 }
 
